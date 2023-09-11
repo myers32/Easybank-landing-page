@@ -16,6 +16,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Public Sans", sans-serif;
   font-size: 1.125rem;
+  font-weight: 300;
   color: hsl(233, 8%, 62%);
   line-height: 1.3;
 }
@@ -24,7 +25,6 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
-  color: hsl(233, 8%, 62%);
 }
 
 .flex {
@@ -47,7 +47,8 @@ button,
   border-radius: 50px;
   border: 0;
   cursor: pointer;
-  color: white;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
 }
 
 .header nav {
@@ -64,4 +65,9 @@ button,
 }
 .header__links a {
   font-size: 0.875rem;
+  color: hsl(233, 8%, 62%);
+}
+.header__cta {
+  font-size: 0.875rem;
+  color: hsl(0, 0%, 100%);
 }/*# sourceMappingURL=style.css.map */
