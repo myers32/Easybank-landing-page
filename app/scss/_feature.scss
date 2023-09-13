@@ -1,9 +1,10 @@
 .feature {
 
   &__intro {
+    margin-bottom: 3.75rem;
 
     @include breakpoint-up(large) {
-      width: 55%;
+      width: 60%;
     }
   }
 
@@ -28,9 +29,21 @@
     }
   }
 
-  &__icon {}
+  &__icon {
+    margin-bottom: 1.875rem;
 
-  &__title {}
+    @include breakpoint-up(large) {
+      margin-bottom: 2.75rem;
+    }
+  }
+
+  &__title {
+    font-size: 1.25rem;
+
+    @include breakpoint-up(large) {
+      font-size: 1.5rem;
+    }
+  }
 
   &__description {}
 }
