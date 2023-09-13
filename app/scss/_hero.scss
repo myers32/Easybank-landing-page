@@ -37,6 +37,8 @@
 
       @include breakpoint-up(large) {
         width: 150%;
+        background-size: 122%;
+        background-position: 0% 83%;
       }
     }
 
@@ -49,6 +51,16 @@
       background-size: 93%;
       background-repeat: no-repeat;
       background-position: center bottom;
+
+      @include breakpoint-up(large) {
+        width: 120%;
+        height: 122%;
+        background-image: url("/images/image-mockups.png");
+        background-size: 94%;
+        background-repeat: no-repeat;
+        background-position: center 150%;
+        left: 22%;
+      }
     }
   }
 
@@ -76,7 +88,7 @@
     p {
       line-height: 1.5;
       margin-bottom: 2.25rem;
-      font-size: $font-lg;
+      font-size: $font-med;
     }
   }
 }

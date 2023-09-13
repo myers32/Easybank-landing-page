@@ -276,6 +276,8 @@ button:hover,
 @media (min-width: 64em) {
   .hero__image::before {
     width: 150%;
+    background-size: 122%;
+    background-position: 0% 83%;
   }
 }
 .hero__image::after {
@@ -287,6 +289,17 @@ button:hover,
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+@media (min-width: 64em) {
+  .hero__image::after {
+    width: 120%;
+    height: 122%;
+    background-image: url("/images/image-mockups.png");
+    background-size: 94%;
+    background-repeat: no-repeat;
+    background-position: center 150%;
+    left: 22%;
+  }
 }
 .hero__text {
   text-align: center;
@@ -313,5 +326,5 @@ button:hover,
 .hero__text p {
   line-height: 1.5;
   margin-bottom: 2.25rem;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }/*# sourceMappingURL=style.css.map */
