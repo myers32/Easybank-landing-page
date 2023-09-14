@@ -489,4 +489,33 @@ button:hover,
 }
 .article__description {
   font-size: 0.8125rem;
+}
+
+.footer {
+  background-color: hsl(233, 26%, 24%);
+  color: hsl(0, 0%, 100%);
+  padding: 2.5rem;
+  text-align: center;
+}
+.footer a {
+  color: hsl(0, 0%, 100%);
+}
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 1.875rem;
+}
+.footer__social {
+  margin-bottom: 1.875rem;
+}
+.footer__social a {
+  display: inline-block;
+}
+.footer__social a:not(:last-child) {
+  margin-right: 1rem;
+}
+.footer__links.col2 {
+  margin-bottom: 1.875rem;
+}
+.footer__cta a.button {
+  margin-bottom: 1.875rem;
 }/*# sourceMappingURL=style.css.map */

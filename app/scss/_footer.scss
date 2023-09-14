@@ -1,33 +1,46 @@
 .footer {
+  background-color: $darkBlue;
+  color: $white;
+  padding: 2.5rem;
+  text-align: center;
 
-    &__logo {
+  a {
+    color: $white;
+  }
 
+  &__logo {
+    display: inline-block;
+    margin-bottom: 1.875rem;
+  }
+
+  &__social {
+    margin-bottom: 1.875rem;
+
+    a {
+      display: inline-block;
     }
 
-    &__social {
+    a:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
 
+  &__links {
+
+    &.col1 {}
+
+    &.col2 {
+      margin-bottom: 1.875rem;
     }
 
-    &__links {
+  }
 
-      &.col1 {
+  &__cta {
 
-      }
-
-      &.col2{
-
-      }
-
+    a.button {
+      margin-bottom: 1.875rem;
     }
+  }
 
-    &__cta {
-
-      a.button {
-
-      }
-    }
-
-    &__copyright {
-      
-    }
+  &__copyright {}
 }
