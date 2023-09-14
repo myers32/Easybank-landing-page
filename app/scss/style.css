@@ -292,6 +292,7 @@ button:hover,
 
 .hero {
   background-color: hsl(0, 0%, 98%);
+  overflow-x: clip;
 }
 @media (min-width: 64em) {
   .hero .container {
