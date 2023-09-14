@@ -59,6 +59,7 @@ body {
   font-weight: 300;
   color: hsl(233, 8%, 62%);
   line-height: 1.3;
+  overflow-x: hidden;
 }
 @media (min-width: 64em) {
   body {
@@ -292,7 +293,6 @@ button:hover,
 
 .hero {
   background-color: hsl(0, 0%, 98%);
-  overflow-x: clip;
 }
 @media (min-width: 64em) {
   .hero .container {
@@ -460,7 +460,7 @@ button:hover,
 }
 .article__item:hover {
   transform: scale(1.05);
-  opacity: 0.75;
+  opacity: 0.85;
 }
 .article__image {
   height: 12.5rem;

@@ -1,6 +1,6 @@
 .hero {
   background-color: $veryLightGray;
-  overflow-x: clip;
+
 
   .container {
     @include breakpoint-up(large) {

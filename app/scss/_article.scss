@@ -4,8 +4,6 @@
 
 .article {
 
-    &__content {}
-
     &__grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -29,7 +27,7 @@
         
         &:hover {
             transform: scale(1.05);
-            opacity: 0.75;
+            opacity: 0.85;
         }
     }
 
