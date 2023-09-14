@@ -270,6 +270,7 @@ button:hover::before,
   margin-top: 1.5rem;
   padding: 1.625rem;
   border-radius: 5px;
+  z-index: 1;
 }
 .header__menu a {
   display: block;
