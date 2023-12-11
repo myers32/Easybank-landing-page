@@ -4,7 +4,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Preview](#preview)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -21,7 +21,7 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size.
 - See hover and focus states for all interactive elements on the page.
 
-### Screenshot
+### Preview
 ![desktop-preview](https://github.com/myers32/Easybank-landing-page/assets/122280628/185e7bd3-738c-449f-8b3c-9acabb81867e)
 
 ### Links
