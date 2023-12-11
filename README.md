@@ -23,7 +23,7 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page.
 
 ### Screenshot
-![desktop-preview](https://github.com/myers32/Bookmark-landing-page/assets/122280628/bd0cff59-d314-43c2-85a7-b11851bb4b58)
+![desktop-preview](https://github.com/myers32/Easybank-landing-page/assets/122280628/185e7bd3-738c-449f-8b3c-9acabb81867e)
 
 ### Links
 
