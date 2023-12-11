@@ -8,7 +8,6 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -40,60 +39,9 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-  
-### What I learned
-
-I figured out how to access and change the .svg image color in CSS.
-
-```css
-  path {
-    stroke: var(--softred);
-  }
-```
-
-I used keyframes for creating animation when fading in text at faqs section.
-
-```css
-@keyframes fade {
-  from {
-    opacity: 0;
-    transform: translateY(u.rem(-10));
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-```
-
-I learned forEach loop and used it to aim all accordion items and add some listener on click.
-
-```js
-  const accordion = () => {
-    const faqs = document.querySelectorAll(".faqs__accordion--item");
-
-    faqs.forEach(faq => {
-      faq.addEventListener("click", () => {
-        faq.classList.toggle("active");
-      });
-    });
-  };
-```
-
-I learned creating one function that initialize my all needed functions at once.
-
-```js
-  const init = () => {
-    menu();
-    changeUnderline();
-    changeDisplay();
-    accordion();
-  };
-```
 
 ### Continued development
-In the future I want to focus on learing how to create more advanced animations.
-Also I want to upgrade my knowledge in JS from beginner to more advanced. 
+My focus is still on creating layouts on the page. I focus mainly on better understanding of grid, flexbox and RWD.
 
 ### Useful resources
 
